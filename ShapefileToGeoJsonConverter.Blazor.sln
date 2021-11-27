@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapefileToGeoJsonConverter", "src\ShapefileToGeoJsonConverter\ShapefileToGeoJsonConverter.csproj", "{9CE42E7C-323B-4AD6-B4B7-E649EF246D90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapefileToGeoJsonConverter.Blazor", "src\ShapefileToGeoJsonConverter.Blazor\ShapefileToGeoJsonConverter.Blazor.csproj", "{08F55B2E-83D8-4508-BED7-105A3F6D4DD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CE42E7C-323B-4AD6-B4B7-E649EF246D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE42E7C-323B-4AD6-B4B7-E649EF246D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE42E7C-323B-4AD6-B4B7-E649EF246D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE42E7C-323B-4AD6-B4B7-E649EF246D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F55B2E-83D8-4508-BED7-105A3F6D4DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F55B2E-83D8-4508-BED7-105A3F6D4DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F55B2E-83D8-4508-BED7-105A3F6D4DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F55B2E-83D8-4508-BED7-105A3F6D4DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BAC05C3-A884-46E7-BDA1-B6E0B66BF8CC}
+	EndGlobalSection
+EndGlobal

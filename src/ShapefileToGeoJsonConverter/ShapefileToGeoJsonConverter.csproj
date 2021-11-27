@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Python.Runtime">
+      <HintPath>bin\Debug\net5.0\Python.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
