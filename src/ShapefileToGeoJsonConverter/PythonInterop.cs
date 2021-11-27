@@ -11,7 +11,7 @@ namespace ShapefileToGeoJsonConverter
     {
         public static void Initialize()
         {
-            string pythonDll = @"C:\Users\Vincenzo\AppData\Local\Programs\Python\Python38\python38.dll";
+            string pythonDll = @"C:\Users\YOURUSERNAME\AppData\Local\Programs\Python\Python38\python38.dll";
             Environment.SetEnvironmentVariable("PYTHONNET_PYDLL", pythonDll);
             PythonEngine.Initialize();
         }
